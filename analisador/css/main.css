@@ -1,0 +1,36 @@
+select#flista {
+  width: 350px;
+}
+
+main .input {
+  margin-block: 12px;
+}
+
+main .button {
+  margin-block: 4px;
+  background-color: rgb(118, 134, 192);
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 4px;
+}
+
+main .button:hover {
+  background-color: rgb(100, 108, 136);
+}
+
+
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 400px;
+  height: 400px;
+}
+
+.item header {
+  margin-block: 14px 14px;
+}
