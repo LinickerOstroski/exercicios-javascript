@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Tabuada</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container_principal">
+    <div class="item_principal">
+      <header class="container_header">
+        <h1>Gerador de tabuada</h1>
+        <h3>Tabuada de multiplicação ✖️</h3>
+      </header>
+      <main class="container_main">
+        <section class="input">
+          <h4>Número: </h4>
+          <input type="number" name="fnum" id="fnum">
+          <input class="button" type="button" value="Gerar" onclick="gerar()">
+        </section>
+        <section class="output">
+          <select name="flista" id="flista" size="6"></select>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script src="../script/script.js"></script>
+</body>
+
+</html>

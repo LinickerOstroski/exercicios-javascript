@@ -6,7 +6,11 @@ function carregar() {
   let hora = data.getHours()
   let minutos = data.getMinutes()
   let segundos = data.getSeconds()
-  msg.innerHTML = `${hora} :  ${minutos} : ${segundos}`
+  if (minutos < 10) {
+    msg.innerHTML = `${hora} :  0${minutos} : ${segundos}`
+  } else {
+    msg.innerHTML = `${hora} :  ${minutos} : ${segundos}`
+  }
   if (hora >= 0 && hora < 12) {
     titulo.innerHTML = 'Bom dia'
     img.src = '../assets/images/manha.jpg'

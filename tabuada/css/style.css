@@ -1,0 +1,67 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+
+body {
+  color: white;
+  font-family: "Outfit", sans-serif;
+  background: rgb(47, 79, 44);
+  background: linear-gradient(0deg, rgba(47, 79, 44, 1) 0%, rgba(104, 162, 111, 1) 48%, rgba(87, 166, 105, 1) 100%);
+}
+
+.container_principal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item_principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(20, 20, 20, 0.281);
+  border-radius: 12px;
+  width: 400px;
+  height: 400px;
+}
+
+.container_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+
+.input {
+  display: flex;
+  gap: 4px;
+}
+
+.button {
+  border: none;
+  padding-inline: 4px;
+}
+
+.button:hover {
+  background-color: rgb(182, 182, 182);
+}
+
+.b .container_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.output #flista {
+  margin-top: 32px;
+  width: 300px;
+  height: 200px;
+}
